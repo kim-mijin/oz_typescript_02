@@ -42,8 +42,8 @@ const App = () => {
         setFilter(Filter.HIDE_COMPLETED);
         break;
       case Filter.HIDE_COMPLETED
-         setFilter(Filter.SHOW_ALL);
-        break;
+        setFilter(Filter.SHOW_ALL);
+        break;å
       default:
         setFilter(Filter.SHOW_ALL);
     }
